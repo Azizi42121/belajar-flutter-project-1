@@ -63,9 +63,9 @@ class HomePage extends StatelessWidget {
                       padding: const EdgeInsets.all(16.0), // Jarak konten di dalam card
                       child: Column(
                         children: [
-                          Image.network(
-                            'https://t4.ftcdn.net/jpg/06/57/37/01/360_F_657370150_pdNeG5pjI976ZasVbKN9VqH1rfoykdYU.jpg',
-                            width: double.infinity,
+                          Image.asset(
+                            'assets/img/monkey-image.webp',
+                            width: 100.0,
                             height: 100.0,
                             fit: BoxFit.cover,
                           ),
